@@ -9,9 +9,9 @@
 
 class Solution {
     public void deleteNode(ListNode node) {
-
-        node.val = node.next.val;
-        node.next = node.next.next;
+         
+         node.val = node.next.val;   //here we were not given the previous node or the head node so what we do is that we assign the curre
+         node.next = node.next.next;
 
     }
 }
